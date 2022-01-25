@@ -4,6 +4,8 @@ WORKDIR /app/medusa
 
 COPY package.json .
 COPY develop.sh .
+COPY src uploads ./
+
 # COPY yarn.lock .
 
 RUN apt-get update
