@@ -4,7 +4,7 @@ WORKDIR /app/medusa
 
 COPY package.json .
 COPY develop.sh .
-COPY src uploads ./
+COPY src ./
 
 # COPY yarn.lock .
 
